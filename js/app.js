@@ -13,6 +13,9 @@ new Vue({
             {
                 name:'Done',
                 list: ['tugas', 'lulus']
+            },{
+                name:'tambahan',
+                list:['tambah','satu']
             }
         ]
     },
@@ -28,8 +31,6 @@ new Vue({
                     console.log(post,add)
                 }
             })
-            console.log(this.allList)
-            
         }
     },
 })
