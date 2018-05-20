@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" >
     <navBar/>
     <contents/>
   </div>
@@ -18,3 +18,9 @@ export default {
   }
 }
 </script>
+
+<style >
+  body {
+    background-color: azure
+  }
+</style>

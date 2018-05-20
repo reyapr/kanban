@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style='background-color: cornflowerblue'>
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -7,12 +7,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Kanban</a>
+                    <a class="navbar-brand" href="#" style='color:white'>Kanban</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="#">Home</a>
+                        <li >
+                            <a href="#" style='color:white'>Home</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -30,7 +30,7 @@
                         </li>
                         <li>
                             <a href="#" >
-                                <span type='submit' class="glyphicon glyphicon-log-out">Logout</span>
+                                <span type='submit' class="glyphicon glyphicon-log-out" style='color:white'>Logout</span>
                             </a>
                         </li>
                     </ul>
