@@ -5,9 +5,11 @@
                 <button  @click="update(status,-1)" class="btn btn-default glyphicon glyphicon-arrow-left" type="button" style="width: 100%">
                 </button>
             </div>
-             <button v-if="status=='Done'" data-toggle="modal" :data-target="'#'+modalId" class='col-sm-9 btn btn-info' >
-                {{task}}
-            </button>   
+                 <button v-if="status=='Done'" data-toggle="modal" :data-target="'#'+modalId" class='col-sm-9 btn btn-info' >
+                    {{task}}
+                 </button>  
+
+             
           
 
             <button v-if="status=='Back Log'" data-toggle="modal" :data-target="'#'+modalId" class='col-sm-9 btn btn-info' >
